@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recrutment Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="apply_box">
+            <h1>Recruitment Form</h1>
+            <!-- <h5>Basic Information:</h5>   -->
+            <form action=""> 
+                <div class="form_container"> 
+                    <div class="form_control">
+                        <label for="first_name">Enter Your First Name :</label>
+                        <input
+                         id="first_name" 
+                         type="first_name" 
+                         placeholder="Enter Your First Name ...." required>
+                    </div>
+
+                    <div class="form_control">
+                        <label for="last_name">Enter Your Last  Name :</label>
+                        <input
+                         id="last_name" 
+                         type="last_name"
+                          placeholder="Enter Your last Name ...."required>
+                    </div>
+
+                    <div class="form_control">
+                        <label for="phone">Enter Contact Number :</label>
+                        <input
+                         id="phone" 
+                         type="tel"
+                        placeholder="Enter Your Email Address ...." required>
+                    </div>
+                    
+                    <div class="form_control">
+                        <label for="startdate">Enter Your DOB :</label>
+                        <input
+                         id="startdate" 
+                         type="date"
+                         value="2004-02-01"
+                        placeholder="Enter Your pincode ...."required>
+                    </div>
+
+                    <div class="form_control">
+                        <label for="gender">Select Your Gender :</label>
+                        <select name="gender" id="gender" required>
+                            <option value="">Select Gender</option>
+                            <option value="male">Male👨</option>
+                            <option value="female">Female👧</option>
+                            <option value="other">Other🥷</option>
+                            <option value="nottosay">Prefer Not To Say ❌</option>
+                        </select>
+                    </div>
+
+                    <div class="form_control">
+                        <label for="email">Enter Your Email Address :</label>
+                        <input
+                         id="email" 
+                         type="email"
+                        placeholder="Enter Your Email Address ...."required>
+                    </div>
+                    <div class="form_control">
+                        <label for="job_role">Select Your Job Role :</label>
+                        <select name="job_role" id="job_role" required>
+                            <option value="">Select Job Role</option>
+                            <option value="FrontEnd">Front-End Devloper</option>
+                            <option value="BackEnd">Back-End Devloper</option>
+                            <option value="FullStack">FullStack Devloper</option>
+                            <option value="UI-UX">UI-UX Designer</option>
+                            <option value="UI-UX">PPT developer</option>
+                        </select>
+                    </div>
+               
+                    <div class="form_control">
+                        <label for="salary">  Expected Salary:</label>
+                        <input
+                         id="salary" 
+                         type="salary"
+                        placeholder="Enter Your  Expected Salary ...." required>
+                    </div>
+
+                    
+                   <div class="form_control">
+                       <label for="startdate"> Availability/Start Date    :</label>
+                       <input
+                        id="startdate" 
+                        type="date"
+                        value="2025-02-01"
+                       placeholder="Start Date ...." required>
+                   </div>
+                   <div class="form_control">
+                    <label for="degree">Highest Degree Obtained:</label>
+                    <input
+                     id="degree" 
+                     type="degree"
+                    placeholder="B.Tech,M.tech,PhD...."required>
+                </div>
+            
+                   <div class="form_control">
+                    <label for="university">University/Institution Name:</label>
+                    <input
+                     id="university" 
+                     type="university"
+                    placeholder="Enter Your   University/Institution Name: ...." required>
+                </div>
+                   <div class="form_control">
+                       <label for="startdate"> Graduation year  :</label>
+                       <input
+                        id="graduation" 
+                        type="year"
+                       placeholder="year of graduation ...."required>
+                   </div>
+
+                    <div class="textarea_control">
+                    <label for="address">Address :</label>
+                      <textarea 
+                      name="address"
+                      id="address" 
+                      row ="4" 
+                      cols="50" 
+                      placeholder="Enter your current address"required>
+                      </textarea>
+                    </div>    
+                    <div class="form_control">
+                        <label for="city">Enter Your City :</label>
+                        <input
+                         id="city" 
+                         type="city"
+                        placeholder="Enter Your City ...."required>
+                    </div>
+                    
+                    <div class="form_control">
+                        <label for="pincode">Enter Your Pincode :</label>
+                        <input
+                         id="pincode" 
+                         type="number"
+                        placeholder="Enter Your pincode ...."required>
+                    </div>
+                    
+                    <div class="form_control">
+                        <label for="upload">Upload Your CV:</label>
+                        <input
+                         id="upload" 
+                         type="file"
+                         name="upload"
+                        placeholder="Enter Your pincode ...."required>
+                </div>
+                    <div class="form_control">
+                        <label for="certifiaction">Upload Your certifications:</label>
+                        <input
+                         id="certifiaction" 
+                         type="file"
+                         name="certifiaction"
+                        placeholder="Enter Your pincode ...."required>
+                </div>
+                    <div class="form_control">
+                        <label for="link">linkedin profile link:</label>
+                        <input
+                         id="link" 
+                         type="url"
+                         name="link"
+                        placeholder="https://tejas_ghondage/linkedin.com ...."required>
+                </div>
+               
+                <div class="form_control">
+                    <label for="hobbies">Enter Your Hobbies/Interests :</label>
+                    <input
+                     id="hobbies" 
+                     type="text"
+                    placeholder="Cricket , Swimming,Football ,Hollyball , other"required>
+                </div>
+            </div>
+            <div class="button_container">
+            <button type="submit">Apply Now</button>
+            </div>
+            <span class="h_small">[terms and conditions apply]</span>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
